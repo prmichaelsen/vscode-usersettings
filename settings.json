@@ -1,121 +1,79 @@
 {
-  "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": true,
-  "editor.insertSpaces": true,
-  "prettifySymbolsMode.substitutions": [
-    {
-      "language": [
-        "typescript",
-        {
-          "pattern": "/**/*.ts",
-        },
-        "javascript",
-        {
-          "pattern": "/**/*.js"
-        },
-        "jsx",
-        {
-          "pattern": "/**/*.jsx"
-        },
-        "tsx",
-        {
-          "pattern": "/**/*.tsx"
-        },
-      ],
-      "substitutions": [
-        {
-          "ugly": "=>",
-          "pretty": "⟹",
-          "style": {
-            "color": "magenta",
-          }
-        },
-        {
-          "ugly": "<=",
-          "pretty": "⟸",
-          "style": {
-            "color": "magenta",
-          }
-        },
-        {
-          "ugly": "<=>",
-          "pretty": "⟺",
-          "style": {
-            "color": "magenta",
-          }
-        }
-      ]
-    }
-  ],
-  "workbench.colorTheme": "Material Gecko",
-  "editor.renderWhitespace": "all",
-  "editor.autoClosingQuotes": "never",
-  "editor.autoClosingBrackets": "never",
-  "explorer.confirmDelete": false,
-  "vim.camelCaseMotion.enable": true,
-  "vim.ignorecase": false,
-  "breadcrumbs.enabled": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.iconTheme": "material-icon-theme",
-  "explorer.confirmDragAndDrop": false,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "viceroy.config.lastVersion": "0.16.0",
-  "files.associations": {
-    "*.*env": "shellscript",
-    "*.*env*.*": "shellscript",
-    "*.yml.jinja": "yaml",
-    "Config": "ruby",
-  },
-  "files.watcherExclude": {
-    // "**/build/**": true,
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
-  },
-  "files.exclude": {
-    ".viceroy": true,
-    "apollo-overrides": true,
-    "release-info": true,
-    "src/*/build": false,
-    // "build": true,
-    "env": true,
-    "packageInfo*": true,
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true
-  },
-  "search.exclude": {
-    "env": true,
-    "src/*/build": true,
-    "build": true,
-    "**/node_modules": true,
-    "**/bower_components": true
-  },
-  "viceroy.config.internal.lastUpdateTime": "2019-04-18T19:37:08.906Z",
-  "viceroy.config.internal.zeroDowntimeColour": "green",
-  "viceroy.doc.welcome.showAtStartup": false,
-  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/mchpatr/.vscode/extensions/gabrielbb.vscode-lombok-0.9.7/server/lombok.jar\" -Xbootclasspath/a:\"/Users/mchpatr/.vscode/extensions/gabrielbb.vscode-lombok-0.9.7/server/lombok.jar\"",
-  "diffEditor.ignoreTrimWhitespace": true,
-  "javascript.implicitProjectConfig.experimentalDecorators": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.tabSize": 2,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": [
-    "Gtcs",
-    "OLVCS",
-    "PSPS",
-    "Redrive",
-    "fatals",
-    "subprocess"
-  ],
-  "editor.multiCursorModifier": "ctrlCmd",
-  "git.path": "git",
-  "python.pythonPath": "python2.7",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0,
-  "editor.cursorSurroundingLines": 100
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.cursorSurroundingLines": 100,
+    "editor.insertSpaces": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "*.*env": "shellscript",
+        "*.*env*.*": "shellscript",
+        "*.yml.jinja": "yaml",
+        "Config": "ruby"
+    },
+    "files.exclude": {
+        ".viceroy": true,
+        "apollo-overrides": true,
+        "release-info": true,
+        "src/*/build": false,
+        "build": true,
+        "env": true,
+        "packageInfo*": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+    },
+    "git.path": "git",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "search.exclude": {
+        "env": true,
+        "src/*/build": true,
+        "build": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vim.camelCaseMotion.enable": true,
+    "vim.ignorecase": false,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.colorTheme": "Material Gecko",
+    "vim.easymotion": true,
+    "viceroy.config.lastVersion": "0.28.200573",
+    "viceroy.config.internal.lastUpdateTime": "2020-04-01T13:46:45.894Z",
+    "viceroy.config.internal.zeroDowntimeColour": "blue",
+    "java.jdt.ls.vmargs": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/mchpatr/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "viceroy.doc.welcome.showAtStartup": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "viceroy.config.beautyMode": false,
+    "vim.easymotionMarkerFontSize": "12",
+    "vim.easymotionMarkerBackgroundColor": "black",
+    "vim.easymotionMarkerForegroundColorOneChar": "white",
+    "vim.easymotionMarkerForegroundColorTwoChar": "white",
+    "vim.easymotionMarkerHeight": 14,
 }
